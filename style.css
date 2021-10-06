@@ -1,0 +1,183 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.body{
+ background-color:lightslategray;
+    width:100%;
+    margin: auto;
+    background-repeat: no-repeat;
+  background-position: ;
+  background-attachment:;
+}
+
+.nav{
+    padding-top: 25px;
+    margin-left: 70px;
+    width: 90%;
+    height: 120px;
+    background-color:maroon;
+   
+   color: white;
+   text-align:center ;
+}
+.description{
+    width: 100%;  
+    border-width: 1px;
+border-color:;
+    border-style: ;  
+    display: flex;
+}
+.card-area{
+  width: 75%;  
+ margin-left: 70px;
+  border-width: ;
+border-color:;
+  border-style:;
+
+  display: grid;
+
+
+  background-color: #2196F3;
+  padding: 10px;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-columns: auto auto auto
+ 
+}
+
+.card{
+    background-color:red ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 450px;
+    border-radius:10px ;
+    border-top:    1px solid red
+  border-left:  1px solid red
+  border-bottom: 1px solid red
+  }
+  .card img{
+    height: 150px;
+  }
+  .name{
+    border-width: 1px;
+    border-color: black;
+      border-style: solid;
+    display: flex;
+    background-color: white;
+    color: red;
+  height: 25px;
+   
+  }
+  .one{
+    border-width: 1px;
+    border-color: ;
+      border-style: ;
+      width: 100%;
+      text-align: left;
+      font-size: 20px;
+      background-color: white;
+    color: red;
+   
+  }
+  .two{
+    border-width: 1px;
+    border-color: ;
+      border-style: ;
+      width: 100%;
+      text-align: left;
+      font-size:20px ;
+      background-color: white;
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  .cart{
+    border-width: 1px;
+    border-color: black;
+      border-style: solid;
+    
+    height: 50px;
+    align-items: center;
+   
+  
+    color: white;
+    padding-top: 10px;
+    font-size:20px ;
+    background-color: black;
+  
+    
+  }
+  .facebook{
+    border-width: 1px;
+    border-color: black;
+      border-style: solid;
+    width:100% ;
+    height: 50px;
+    background-color: white;
+    color: white;
+    justify-content: center;
+    padding-top: 10px;
+    font-size:20px ;
+    background-color: black;
+   
+    word-spacing: 25px;
+
+  }
+.summation{
+    width: 25%;  
+    border-width: 1px;
+border-color: ;
+    border-style:;
+    margin-left: 40px;
+    margin-right: 64px;
+    
+  }
+ .man{
+  border-width: 1px;
+  border-color: black;
+    border-style: solid;
+  display: flex;
+  background-color: white;
+  color: red;
+
+ }
+ .cost{
+  border-width: 1px;
+  border-color: black;
+    border-style: solid;
+  display: flex;
+  background-color: white;
+  color: red;
+ }
+ .buy{
+  border-width: 1px;
+  border-color: black;
+    border-style: solid;
+  width:100% ;
+  height: 50px;
+  background-color: white;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  }
+  .buy button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 7px;
+  }
+  .buy p{
+    
+    color: white;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 15px;
+
+  }
